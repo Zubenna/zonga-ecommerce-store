@@ -27,7 +27,7 @@ const Header = () => {
                 <QuestionMarkCircleIcon className="h-8 w-8 p-1"/>
                    <select className="outline-none bg-white text-black px-2 text-sm">
                    <option selected>Help</option>
-                   <option>FAQ's</option>
+                   <option>FAQ&apos;s</option>
                    <option>Contact Us</option>
                    <option>Track My Order</option>
                    </select>
@@ -51,7 +51,7 @@ const Header = () => {
                 All</p>
               <p className="link">Prime Video</p>
               <p className="link">Zonga Business</p>
-              <p className="link">Today's Deals</p>
+              <p className="link">Today&apos;s Deals</p>
               <p className="link hidden lg:inline-flex">Electronics</p>
               <p className="link hidden lg:inline-flex">Food & Grocery</p>
               <p className="link hidden lg:inline-flex">Health & Personal Care</p>
