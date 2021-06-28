@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import { CheckCircleIcon } from "@heroicons/react/solid";
 import { useRouter } from "next/router";
 
-const success = () => {
+const Success = () => {
   const router = useRouter();
   return (
     <div className="bg-gray-100 h-screen">
@@ -18,7 +18,7 @@ const success = () => {
             </h1>
           </div>
           <p>
-            Thank you for shopping with us. We'll send a confirmation once your
+            Thank you for shopping with us. We&apos;ll send a confirmation once your
             item has shipped, if you would like to check the status of your
             order(s) please press the link below
           </p>
@@ -33,4 +33,4 @@ const success = () => {
   );
 };
 
-export default success;
+export default Success;
