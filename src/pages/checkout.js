@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import { useSession } from 'next-auth/client';
 import Currency from 'react-currency-formatter';
 import { loadStripe } from '@stripe/stripe-js';
-import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
+// import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
 import axios from 'axios';
 import CheckoutProduct from '../components/CheckoutProduct';
 const stripePromise = loadStripe(process.env.stripe_public_key);

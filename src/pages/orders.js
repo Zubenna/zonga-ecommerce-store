@@ -1,6 +1,5 @@
 import moment from "moment";
 import { useSession, getSession } from "next-auth/client";
-import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
 import React from "react";
 import db from "../../firebase";
 import Header from "../components/Header";
