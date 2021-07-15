@@ -1,19 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { useState } from "react";
 import Currency from "react-currency-formatter";
 import { StarIcon } from "@heroicons/react/solid";
 import { useDispatch } from "react-redux";
 import { addToBasket } from "../redux/Shopping/shopping-actions";
 
-const Product = ({ id, title, price, description, category, image }) => {
+const Product = ({ id, title, price, description, category, rating, image }) => {
   const dispatch = useDispatch();
-  const MAX_RATING = 5;
-  const MIN_RATING = 1;
-  const [rating] = useState(
-    Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 1)) + MIN_RATING
-  );
-
   const addItemToBasket = () => {
     const product = {
       id,
@@ -22,6 +15,7 @@ const Product = ({ id, title, price, description, category, image }) => {
       description,
       category,
       image,
+      rating,
     };
     dispatch(addToBasket(product));
   };

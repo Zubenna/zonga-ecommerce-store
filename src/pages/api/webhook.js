@@ -29,7 +29,7 @@ const fulfillOrder = async (session) => {
       timestamp: admin.firestore.FieldValue.serverTimestamp(),
     })
     .then(() => {
-      console.log(`SUCCESS: Order ${session.id} had been added to the DB`);
+      // console.log(`SUCCESS: Order ${session.id} had been added to the DB`);
     });
 };
 export default async (req, res) => {
@@ -43,7 +43,7 @@ export default async (req, res) => {
     try {
       event = stripe.webhooks.constructEvent(payload, sig, endpointSecret);
     } catch (err) {
-      console.log("ERROR", err.message);
+      // console.log("ERROR", err.message);
       return res.status(400).send(`Webhook error: ${err.message}`);
     }
 
