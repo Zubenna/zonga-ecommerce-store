@@ -47,7 +47,7 @@ export default function EditProduct(props) {
 
   const updateProduct = async (productData) => {
     try {
-      const edited = await fetch(`/api/zonga/${router.query.id}`, {
+      const edited = await fetch(`process.env.HOST/api/zonga/${router.query.id}`, {
         method: "PUT",
         headers: {
           Accept: "application/json",
