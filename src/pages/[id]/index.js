@@ -31,7 +31,7 @@ export default function Product(props) {
   const deleteProduct = async () => {
     const productId = id;
     try {
-      const deleted = await fetch(`process.env.HOST/api/zonga/${productId}`, {
+      const deleted = await fetch(`/api/zonga/${productId}`, {
         method: "DELETE",
       });
 
