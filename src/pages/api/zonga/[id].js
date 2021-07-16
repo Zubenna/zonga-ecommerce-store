@@ -2,7 +2,7 @@ import { MongoClient, ObjectId } from "mongodb";
 
 async function handlerTwo(req, res) {
   const client = await MongoClient.connect(
-    `mongodb+srv://Zubenna:${process.env.MONGO_DB}@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority`,
+    "mongodb+srv://Zubenna:Nwanna@2021@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority",
     { useUnifiedTopology: true }
   );
   const db = client.db();
