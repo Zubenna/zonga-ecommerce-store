@@ -31,7 +31,7 @@ const NewProduct = () => {
             quantity: enteredQuant,
             rating: enteredRating
         };
-            const response = await fetch(`${process.env.HOST}/api/new-product`, {
+            const response = await fetch(`/api/new-product`, {
                 method: 'POST',
                 body: JSON.stringify(productData),
                 headers: {
