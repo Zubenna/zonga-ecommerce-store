@@ -43,7 +43,7 @@ const NewProduct = () => {
             router.push("/adminpage");
     }
     return (
-        <main className="flex justify-center h-screen bg-red-100">
+        <main className="flex justify-center min-h-screen bg-red-100">
            <form className="pt-20" onSubmit={submitHandler}>
              <input className="h-8 w-96 border border-red-400 mb-4" type="text" ref={titleInputRef} required placeholder="Enter title" /> <br />
              <input className="h-8 w-96 border border-red-400 mb-4" type="text" ref={priceInputRef} required placeholder="Enter price" /> <br />

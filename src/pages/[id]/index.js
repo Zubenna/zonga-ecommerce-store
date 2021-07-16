@@ -47,9 +47,9 @@ export default function Product(props) {
   };
 
   return (
-    <div className="w-ful h-screen bg-red-200">
+    <div className="bg-red-200">
      <Header />
-    <div className="w-4/12 mx-auto text-center text-gray-700">
+    <div className="w-4/12 mx-auto min-h-screen text-center text-gray-700">
       {isDeleting ? (
         <Loader active />
       ) : (
@@ -80,7 +80,7 @@ export default function Product(props) {
           <div className="flex mt-2 justify-between">
           <h4>Category: </h4><p>{category}</p>
           </div>
-          <Button className="bg-red-800 mt-10 p-2" onClick={open}>
+          <Button className="bg-red-800 mt-10 mb-10 p-2" onClick={open}>
             Delete
           </Button>
         </>
@@ -93,7 +93,7 @@ export default function Product(props) {
 
 export async function getStaticPaths() {
   const client = await MongoClient.connect(
-    "mongodb+srv://Zubenna:Nwanna@2021@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority",
+    `mongodb+srv://Zubenna:${process.env.MONGO_DB}@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority`,
     { useUnifiedTopology: true }
   );
   const db = client.db();
@@ -111,7 +111,7 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
   const productId = context.params.id;
   const client = await MongoClient.connect(
-    "mongodb+srv://Zubenna:Nwanna@2021@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority",
+    `mongodb+srv://Zubenna:${process.env.MONGO_DB}@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority`,
     { useUnifiedTopology: true }
   );
   const db = client.db();

@@ -134,7 +134,7 @@ export default function EditProduct(props) {
 
 export async function getStaticPaths() {
   const client = await MongoClient.connect(
-    "mongodb+srv://Zubenna:Nwanna@2021@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority",
+    `mongodb+srv://Zubenna:${process.env.MONGO_DB}@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority`,
     { useUnifiedTopology: true }
   );
   const db = client.db();
@@ -152,7 +152,7 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
   const productId = context.params.id;
   const client = await MongoClient.connect(
-    "mongodb+srv://Zubenna:Nwanna@2021@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority",
+    `mongodb+srv://Zubenna:${process.env.MONGO_DB}@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority`,
     { useUnifiedTopology: true }
   );
   const db = client.db();
