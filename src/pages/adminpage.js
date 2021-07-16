@@ -33,7 +33,7 @@ export default function Home({ products }) {
 
 export async function getServerSideProps(context) {
   const session = await getSession(context);
-  const client = await MongoClient.connect(`mongodb+srv://Zubenna:${process.env.MONGO_DB}@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority`, { useUnifiedTopology: true });
+  const client = await MongoClient.connect("mongodb+srv://Zubenna:Nwanna@2021@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority", { useUnifiedTopology: true });
   const db = client.db();
 
   const zongaCollection = db.collection('zonga');
