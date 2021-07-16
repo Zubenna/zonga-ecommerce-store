@@ -16,14 +16,14 @@ const StoredProducts = ({ id, title, price, description, category, quantity, rat
         <td className="w-20">{price}</td>
         <td className="w-20">{rating}</td>
         <td className="w-20"> 
-        <Link href={`${process.env.HOST}/${id}`}>
+        <Link href={`/${id}`}>
         <button className="button mr-3">
          View
         </button>
         </Link>
         </td>
         <td className="w-20">
-        <Link href={`${process.env.HOST}/${id}/edit`}>
+        <Link href={`/${id}/edit`}>
         <button className="button mr-3">
          Edit
         </button>
