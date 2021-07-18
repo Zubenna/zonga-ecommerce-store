@@ -4,7 +4,7 @@ import Product from '../components/Product';
 const ProductFeed = ({ products }) => {
     return (
         <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto">
-          {products.map(({id, title, price, description, category, image}) => (
+          {products.map(({id, title, price, description, category, rating, image}) => (
               <Product 
                 key={id}
                 id={id}
@@ -13,6 +13,7 @@ const ProductFeed = ({ products }) => {
                 description={description}
                 category={category}
                 image={image}
+                rating={rating}
               />
           ))} 
         </div>

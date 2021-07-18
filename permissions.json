@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "zonga-ec-store",
+  "private_key_id": "b7fc02559eb0be0212d4cca9c913d7ef34d7379f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDRUPriw4uuWNaX\nLyTwhUoYO3C06t+BvMhDJWPF+XGW82msxpcmay9K+/G86cOE2zMGF9SDlOsR84gR\n+tjXLOjgCxcbYxLL5thWDfPIl3+tuEtM2njG+fzlS64EbBsEhLWIzRns4sn2GVqz\nlVXOzylCtYqNiiEQYPLoxqlj3pQpQlcj0WNvhWS8OUxyZd2sDKF5n7Jst4pEvJH0\nr2cBALnU+aIx5Cq2HC275iOl9X232SQpx+ESOpTPq0QthQw9hPtkiZlMAukJ8zb7\nzUiJ3NK0zgf5k8q7c5pqXyQDsNmMR73Nw1jc2K7B6cT8JbZjh1s90/8bjQtuFWRH\ndn/Bnk0rAgMBAAECggEAYgpcoOc3ny+EP6b41eGQnX4F4e+bRbDPWkgCjiGytyIH\nDsKr3HZa3fPZPAOALVPgd8ukogcX/b4EL2u/sjWaVApNxemnTbMwBEqfs4Zmas+G\nEZbI+GXyMtI6TV73XqvsPYnXyVFGiItCpRfe67GzoUfYAEjBCONoE2itwZXo7tOH\neBeXjC/1iWOQRrSZiYUmenQcOkBVCDKWMR+h1+4frLxGuELW+KOiIImNtNEpN4TI\nUqOu573PA9yj128cjUkfJ0cWBqEWCNSo5p0bxE9j288iSERMQihdXs/Pn+y4JCI2\nDKn74xZYd9sZPXpME6JkZ0KaOTsqgyNZ2q+C1/RlNQKBgQDvA1uGQiW4AHKnu5D5\nY/5v+H0UwQgdP2iQ3wNmpenTChJWZSrd3Zv+flYA5YTplrrGMWJNXBoHoYMDX0p4\nR5dUTetsRjFXsn/7lyNRYtTDlIrAm6NwpZcmk48/h0OTBseYAwasJtvfm6WJnfrR\nAbk8OQXhBauLSV+9o3vZ4ifjfQKBgQDgMVCAOpNP98zZ2CECq54XSaVtTSzKTN1+\nYPXJiuOIPgVpQmnSHmDYiQTtXsubN3TgUQXaeGlXsB4sQ6Xwe3dvAB2GYYZ89LO+\n//yhMhr1qtorHwTs/nV5NmvUOc5trGo3gawpXj9lq9jqaeJxvoFoctww4FDYoR9f\noKk3/1oDxwKBgBEWD1vorKObvJaLDREW+eBtRhvOtNLKbqI0nxyebbm9dZQhhU/5\nAKbPxzwnLDo6oT172Egpdl7nR+Nc04kHrSTEsTi7R9m6E/YbVtYBl64nl0evmJ57\n5/NFBy+Gbuk6ydfvF3IFESDKEqpk1cJNOj244de1PQ8m/qYi4r6vsSRNAoGAa5+g\n2n3EHB6EK4uyhRqnwNws2uSyfMcbiUC4nTDce5nydQ5ZyHGm4iwcvmrEaVXc+JZM\nrg0h3OOCCJPNBD3xHss6YTlOG4xJAYbX2vY3tPl41DyG29JnyHGUoAPEEigzsUPB\nxvYkjwVJE3cTKrFeZCrHg3sbtHLcocZ5lZUyvB8CgYEAjoBnZ8n8TPwhTOxg1TjQ\nEYt5kr6qYW/x9vNsIrWqojPZoZIGnZIRFAjsvKHyhS+/VJyqD9cJaqs0Smp2wPOb\n9IUeRjZ0YhiPilylvVMwK5MIjRHRzYgDfBQ02jI0a0sOQsLB7OBFHzvd5zUb7h1m\nh+Lrl4UagySUtc6tdFluPnM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-hllpf@zonga-ec-store.iam.gserviceaccount.com",
+  "client_id": "117882004959451614460",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-hllpf%40zonga-ec-store.iam.gserviceaccount.com"
+}
