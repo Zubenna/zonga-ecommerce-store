@@ -25,7 +25,7 @@ export default function Home({ products }) {
       </main>
       <footer className="max-w-screen-xl mx-auto bg-gray-600">
         <div className="flex flex-col md:flex-row justify-around p-12">
-          <div className="flex mb-2">
+          <div className="flex">
             <PhoneIcon className="text-black bg-white rounded-full h-10 w-10 p-2" />
             <p className="ml-2 text-white">+234 7030000000</p>
           </div>

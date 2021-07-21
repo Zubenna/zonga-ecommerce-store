@@ -9,8 +9,3 @@ export const removeFromBasket = (product) => ({
     type: actionTypes.REMOVE_FROM_BASKET,
     product,
 });
-
-export const filterProducts = (category) => ({
-    type: actionTypes.FILTER_PRODUCT,
-    payload: category,
-});
