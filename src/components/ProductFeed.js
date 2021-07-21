@@ -6,7 +6,6 @@ import ProductFilter from "./ProductFilter";
 
 const ProductFeed = ({ products }) => {
   const filter = useSelector((state) => state.filter);
-  // const AllProducts = useSelector((state) => state.shop.products)
   const dispatch = useDispatch();
 
   const handleFilter = (item) => {

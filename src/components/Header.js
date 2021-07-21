@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import {
   MenuIcon,
@@ -14,7 +14,11 @@ const Header = () => {
   const [session] = useSession();
   const router = useRouter();
   const items = useSelector((state) => state.shop);
-  // 
+
+  useEffect(() => {
+    // router.push("/");
+  }, [session]);
+
   return (
     <header>
       <div className="flex items-center bg-zonga_pink flex-grow">
