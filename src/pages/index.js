@@ -41,9 +41,6 @@ export default function Home({ products }) {
 
 export async function getServerSideProps(context) {
   const session = await getSession(context);
-  // const products = await fetch('https://fakestoreapi.com/products').then(
-  //   (res) => res.json()
-  // );
   const client = await MongoClient.connect(
     "mongodb+srv://Zubenna:Nwanna@2021@zubycluster.p6j8x.mongodb.net/zongaDb?retryWrites=true&w=majority",
     { useUnifiedTopology: true }
