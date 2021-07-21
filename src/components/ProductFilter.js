@@ -15,7 +15,7 @@ const ProductFilter = (props) => {
           <button type="button" className="filterButton h-10" id="men-c" onClick={handleClick}>Men&aposs Clothing</button>
           <button type="button" className="filterButton h-10" id="jewelry" onClick={handleClick}>Jewelery</button>
           <button type="button" className="filterButton h-10" id="electron" onClick={handleClick}>Electronics</button>
-          <button type="button" className="filterButton h-10" id="women-c" onClick={handleClick}>Women's Clothing</button>
+          <button type="button" className="filterButton h-10" id="women-c" onClick={handleClick}>Women&aposs Clothing</button>
           <button type="button" className="filterButton h-10" id="phone" onClick={handleClick}>Phones</button>
           <button type="button" className="filterButton h-10" id="furnit" onClick={handleClick}>Furniture</button>
         </div>
