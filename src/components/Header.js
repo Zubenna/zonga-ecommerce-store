@@ -14,6 +14,7 @@ const Header = () => {
   const [session] = useSession();
   const router = useRouter();
   const items = useSelector((state) => state.shop);
+  // 
   return (
     <header>
       <div className="flex items-center bg-zonga_pink flex-grow">
@@ -21,10 +22,10 @@ const Header = () => {
           <Image
             onClick={() => router.push("/")}
             src="https://i.imgur.com/pVVKvUl.png"
-            width={100}
-            height={50}
+            width={150}
+            height={60}
             objectFit="contain"
-            className="cursor-pointer"
+            className="cursor-pointer block"
             alt=""
           />
         </div>
@@ -38,8 +39,8 @@ const Header = () => {
         <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
           <div className="cursor-pointer">
             <div className="flex">
-              <QuestionMarkCircleIcon className="h-8 w-8 p-1" />
-              <select className="outline-none bg-white text-black px-2 text-sm">
+              <QuestionMarkCircleIcon className="h-8 w-8 hidden md:block" />
+              <select className="hidden md:block outline-none bg-white text-black px-2 text-sm">
                 <option>Help</option>
                 <option>FAQ&apos;s</option>
                 <option>Contact Us</option>

@@ -1,3 +1,4 @@
 export const ADD_TO_BASKET = "ADD_TO_BASKET";
 export const REMOVE_FROM_BASKET = "REMOVE_FROM_BASKET";
 export const ADJUST_QTY = "ADJUST_QTY";
+export const FILTER_PRODUCT = "FILTER_PRODUCT";
