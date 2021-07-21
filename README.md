@@ -60,7 +60,6 @@ npm run dev
 ```
 - Once the server is fully started, type the url http://localhost:3000/ to see the app.
 
-```
 ## Live Version
 Launch live version.
 - [Launch App](https://zongashop.codes/)
