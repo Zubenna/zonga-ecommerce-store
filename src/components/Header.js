@@ -16,7 +16,8 @@ const Header = () => {
   const items = useSelector((state) => state.shop);
 
   useEffect(() => {
-    // router.push("/");
+    router.push("/");
+    console.log("Useeffect ran");
   }, [session]);
 
   return (
