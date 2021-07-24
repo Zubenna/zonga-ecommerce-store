@@ -13,13 +13,7 @@ import { useSelector } from "react-redux";
 const Header = () => {
   const [session] = useSession();
   const router = useRouter();
-  const items = useSelector((state) => state.shop);
-
-  useEffect(() => {
-    router.push("/");
-    console.log("Useeffect ran");
-  }, [session]);
-
+  const items = useSelector((state) => state.shop);  
   return (
     <header>
       <div className="flex items-center bg-zonga_pink flex-grow">
@@ -53,7 +47,7 @@ const Header = () => {
               </select>
             </div>
           </div>
-          <div onClick={!session ? signIn : signOut} className="link">
+          <div onClick={!session ? signIn : signOut } className="link">
             <p className="font-extrabold md:text-sm">
               {session ? `Hello, ${session.user.name}` : "Sign In"}
             </p>
