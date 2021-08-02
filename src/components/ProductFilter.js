@@ -8,7 +8,7 @@ const ProductFilter = (props) => {
     };
 
     return (
-      <div className="ml-4 w-auto">
+      <div className="mx-4 w-auto">
         <div className="flex flex-col w-auto">
           <h3 className="w-full md:w-40 mt-6 mb-4 text-center">Filter Products by Category</h3>
           <button type="button" className="filterButton h-8" id="all" onClick={handleClick}>All</button>
