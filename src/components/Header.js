@@ -15,11 +15,6 @@ const Header = () => {
   const router = useRouter();
   const items = useSelector((state) => state.shop);
 
-  useEffect(() => {
-    if(!session) {
-      router.push("/");
-    }
-  })  
   return (
     <header>
       <div className="flex items-center bg-zonga_pink flex-grow">
